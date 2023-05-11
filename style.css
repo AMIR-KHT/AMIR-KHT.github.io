@@ -31,3 +31,13 @@ body{
 .main > a:hover{
     background-color: black;
 }
+#akht {
+    text-decoration: none;
+    color: rgb(255, 2, 2);
+    margin: auto;
+    max-width: 115px;
+    display: grid;
+    padding: 10px;
+    background-color: gold;
+    
+}
