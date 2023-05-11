@@ -1,0 +1,28 @@
+.main {
+   /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr); */
+    display: grid;
+    grid-template-areas: 
+        "d d h h j j"
+        "l l f f o o"
+        "m m b b q q"
+    ;
+}
+.po1{
+    grid-area: d;
+}
+.po2{
+    grid-area: j;
+}
+.po3{
+    grid-area: m;
+}
+.po4{
+    grid-area: q;
+}
+.nahaii {
+    grid-area: f;
+    width: 150px;
+}
+

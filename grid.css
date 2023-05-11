@@ -1,0 +1,40 @@
+.header {
+    display: grid;
+    grid-template-areas:
+    " q q s s w w c c p p"
+    
+    ;
+}
+.welcome{
+    grid-area: w;
+}
+.school{
+    grid-area: s;
+}
+.class{
+    grid-area: c;
+}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+    "r r t t f f"
+    "a a a a a a"
+    "j j e e z z"
+    ;
+}
+.dini{
+    grid-area: r;
+}
+.farsi{
+    grid-area: f;
+}
+.arabi{
+    grid-area: a;
+}
+.joghrafia{
+    grid-area: j;
+}
+.zaban{
+    grid-area: z;
+}

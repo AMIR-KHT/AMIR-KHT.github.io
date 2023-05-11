@@ -1,0 +1,24 @@
+.main {
+   /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr); */
+    display: grid;
+    grid-template-areas: 
+        "d d e j j" 
+        "f f f f f"
+
+    ;
+}
+.nobat1{
+    grid-area: d;
+    width: 150px;
+}
+.nobat2{
+    grid-area: j;
+    width: 150px;
+}
+.nahaii {
+    grid-area: f;
+    width: 800px;
+}
+

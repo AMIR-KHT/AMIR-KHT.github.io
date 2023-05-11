@@ -1,0 +1,54 @@
+.main {
+   /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr); */
+    display: grid;
+    grid-template-areas: 
+        "d d e j j s m m"
+        "q q e g g s n n"
+        "l l e k k s o o"
+        "p p e i i s u u"
+        "f f f f f f f f"
+    ;
+}
+.po1{
+    grid-area: d;
+}
+.po2{
+    grid-area: j;
+}
+.po3{
+    grid-area: m;
+}
+.po4{
+    grid-area: q;
+}
+.po5{
+    grid-area: g;
+}
+.po6{
+    grid-area: n;
+}
+.po7 {
+    grid-area: l;
+}
+.po8 {
+    grid-area: k;
+}
+.po9 {
+    grid-area: o;
+}
+.po10 {
+    grid-area: p;
+}
+.po11 {
+    grid-area: i;
+}
+.po12 {
+    grid-area: u;
+}
+.nahaii {
+    grid-area: f;
+    width: 800px;
+}
+

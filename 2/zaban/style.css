@@ -1,0 +1,55 @@
+body {
+     /* background-color: gray; */
+    background-image: url("image.jpg");
+    background-repeat: repeat;
+}
+.header {
+    color: rgb(60, 232, 255);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    background-color:   black;
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 100px;
+}
+.main{
+    margin: auto;
+}
+.main > div {
+    border: 5px solid rgb(253, 220, 176);
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    height: 84px;
+    padding: 10px;
+    overflow: hidden;
+    transition: height 1s;
+    max-width: 250px;
+}
+.main > div > div > a {
+    color: rgb(255, 218, 6);
+    padding: 20px;
+    font-size: 15px;
+    display: grid;
+    text-align: end;
+    text-decoration: none;
+}
+.main > div > div > a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+}
+.titl {
+ margin: auto;
+ color:rgb(123, 255, 0);
+ padding: 20px;
+ font-size: 22px;
+}
+.mini {
+    border-top: 5px solid rgb(253, 220, 176);
+}
+.main > div:hover{
+    height: 300px;
+    overflow: auto;
+}

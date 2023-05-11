@@ -1,0 +1,33 @@
+
+body{
+    background-image: url("image2.jpg");
+    background-repeat: repeat;
+}
+.header {
+    color: aqua;
+    background-color: black;
+}
+#hr {
+    height: 100px;
+}
+.header > div {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main > a{
+    color:rgb(123, 255, 0);
+    padding: 40px;
+    font-size: 30px;
+    margin: 30px auto;
+    text-align: center;
+    border: 5px solid rgb(253, 220, 176);
+    border-radius: 50px;
+    min-width: 80px;
+    display: grid;
+    text-decoration: none;
+}
+.main > a:hover{
+    background-color: black;
+}
