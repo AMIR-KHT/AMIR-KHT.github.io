@@ -18,8 +18,8 @@
 .main{
     display: grid;
     grid-template-areas: 
-    "r r g g f f"
-    "a a a a a a"
+    "r r u u f f"
+    "g g t t a a"
     "j j e e z z"
     ;
 }
