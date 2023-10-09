@@ -18,10 +18,9 @@
 .main{
     display: grid;
     grid-template-areas: 
-    "r r o o f f"
+    "r r g g f f"
     "a a a a a a"
     "j j e e z z"
-    "u u g g t t"
     ;
 }
 .game{
