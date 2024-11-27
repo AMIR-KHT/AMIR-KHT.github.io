@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07cf3252.css",
+    "main.js": "/static/js/main.fff78789.js",
+    "static/media/Roboto-Regular.woff": "/static/media/Roboto-Regular.f7bafc7e0b4cc5d4a0d9.woff",
+    "static/media/fraction.cjs": "/static/media/fraction.7992481f3d8339b77604.cjs",
+    "index.html": "/index.html",
+    "static/media/index.cjs": "/static/media/index.f6d03137e8c9dd0de04c.cjs",
+    "main.07cf3252.css.map": "/static/css/main.07cf3252.css.map",
+    "main.fff78789.js.map": "/static/js/main.fff78789.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07cf3252.css",
+    "static/js/main.fff78789.js"
+  ]
+}
